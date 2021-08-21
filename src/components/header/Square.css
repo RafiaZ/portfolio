@@ -1,0 +1,104 @@
+.square{
+   width: 25%;
+   height: 55vh;
+   background-color: black;
+   display: flex;
+   border-radius: 10px;
+    justify-content: center; 
+   align-items: center;
+   box-shadow: 0 0 10px 0 grey;
+   flex-direction: column;
+  position: relative;
+
+ 
+
+}
+
+@keyframes slideout {
+    
+   0%{
+      transform: translateX(-800px);
+   }
+
+   50%{
+      transform: translateX(800px);
+   }
+}
+
+.square:hover{
+  
+   animation: 3s linear 1s running slideout;
+
+}
+
+
+.circle{
+
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* outline: 1.5rem solid rgb(52, 235, 192); */
+     box-shadow: 0 0 40px 0 rgb(52, 235, 192);
+    background: 
+       url("../header/Assets/circle.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       position: absolute;
+       top: -80px;
+
+      
+     
+}
+@keyframes nudge {
+   0%, 100% {
+     transform: translate(0, 0);
+   }
+   
+   50% {
+     transform: translate(150px, 0);
+   }
+   
+   80% {
+     transform: translate(-150px, 0);
+   }
+ }
+ 
+
+.circle:hover{
+  
+   animation: nudge 5s linear infinite alternate;
+}
+
+
+.name{
+
+   color: rgb(52, 235, 192);
+   
+}
+
+.icons{
+   height: 20%;
+   width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.icon-circle{
+
+   display: flex;
+  width: 3rem;
+   height: 3rem;
+   border-radius: 50%;
+     border: 2px solid rgb(52, 235, 192);
+     margin-right: 0.5rem;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     
+}
