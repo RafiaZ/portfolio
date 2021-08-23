@@ -12,10 +12,10 @@
     position: fixed;
     top:0;
     width: 100%;
-    z-index: 20000;
+    z-index: 2;
     align-items: center;
     padding-top: 30px;
-    position: relative;
+    /* position: relative; */
 }
 
 .navbar-list{
