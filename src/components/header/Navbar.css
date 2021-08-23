@@ -8,10 +8,14 @@
     /* padding-top: 1rem; */
     letter-spacing: 2px;
     font-weight: lighter;
-
-    
- 
-
+    box-shadow: 0 0 10px 0 grey;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 20000;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
 }
 
 .navbar-list{
@@ -24,6 +28,7 @@
     margin-right: 7rem;
     flex-wrap: wrap;
     animation: 0.3s linear slideIntop;
+    z-index: 30000;
 
 
 

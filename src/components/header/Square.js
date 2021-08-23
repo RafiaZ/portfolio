@@ -7,6 +7,7 @@ function Square() {
     
   return (
     <>
+    <div className="flex-container">
       <div className="square">
         <div className="circle"></div>
 
@@ -14,14 +15,16 @@ function Square() {
 
         <div className="icons">
           <div className="icon-circle">
-              
+             
           </div>
-          <div className="icon-circle">Hi</div>
-          <div className="icon-circle">Hi</div>
-          <div className="icon-circle">Hi</div>
-          <div className="icon-circle">Hi</div>
+          <div className="icon-circle"></div>
+          <div className="icon-circle"></div>
+          <div className="icon-circle"></div>
+          <div className="icon-circle"></div>
      </div>
     
+      </div>
+
       </div>
     </>
   );
