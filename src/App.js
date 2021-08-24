@@ -5,7 +5,7 @@ import About from './components/About-me/About';
 
 
 
-function App() {
+function App(props) {
   return (
     <div>
       <Navbar/>
