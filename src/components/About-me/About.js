@@ -32,6 +32,7 @@ function About() {
                 </div>
 
              <div className="section--personal-details">
+                 
              
             <div className="details--list">
             <ul className="list-1">
@@ -56,6 +57,14 @@ function About() {
 
              <div className="section--my-interests">
                     
+                    <div className="interests_icons"></div>
+                    <div className="interests_icons"></div>
+                    <div className="interests_icons"></div>
+                    <div className="interests_icons"></div>
+                    <div className="interests_icons"></div>
+                    <div className="interests_icons"></div>
+                    <div className="interests_icons"></div>
+                    <div className="interests_icons"></div>
              </div>
 
             </div>

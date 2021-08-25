@@ -14,7 +14,7 @@
 }
 
 .about-me__content{
-    margin: auto 6.9rem;
+    margin: auto 8rem;
     display: flex;
     flex-direction: column;
 }
@@ -43,7 +43,7 @@
 .sections--headers{
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
 }
 
 .about-me__sections{
@@ -51,7 +51,7 @@ justify-content: space-around;
     flex-direction: column;
     height: auto;
     /* margin: auto 0.2rem; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     margin-top: 2rem;
     
 }
@@ -65,12 +65,10 @@ justify-content: space-around;
 
 .details--list{
     display: flex;
-    flex: column;
+    flex-direction: row;
+    justify-content: flex-start;
     margin-top: 2rem;
-    
-    
 }
-
 .list-1 {
     color: rgb(52, 235, 192);
     text-transform: uppercase;
