@@ -37,9 +37,15 @@
     font-weight: bold;
 }
 
+.sections--headers{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
 .about-me__sections{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
     margin: auto 0.2rem;
     justify-content: space-evenly;
@@ -49,8 +55,32 @@
 
 .section--personal-details{
     display: flex;
+    flex-direction: column;
     
 }
+
+.details--list{
+    display: flex;
+    flex: column;
+    margin-top: 2rem;
+    
+    
+}
+
+.list-1 {
+    color: rgb(52, 235, 192);
+    text-transform: uppercase;
+    font-weight: bolder;
+    align-items: flex-start;
+    
+  
+}
+
+.details--list li{
+    list-style: none;
+   
+}
+
 
 
 

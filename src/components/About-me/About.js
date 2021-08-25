@@ -4,15 +4,8 @@ import './About.css'
 
 function About() {
 
-
-    const contact = [
-        {birthdate : '12-23-1997'},
-        {phone: '051-888238'},
-        {email: 'rafiazafar75@gmail.com'},
-        {website: 'www.example.com'},
-        {jobstatus: 'Developer'}
-    ]
     return (
+
         <div className="about-me">
 
             <div className="about-me_header ">
@@ -28,20 +21,39 @@ function About() {
             </p>
 
             <div className="about-me__sections">
+                <div  className="sections--headers">
+                    
+                    <div><h3>My Interests</h3></div>
+                    <div><h3>Personal Details</h3></div>
+            
+            
+                </div>
+
              <div className="section--personal-details">
-                   <h3>Personal Details</h3>
-             <ul>
-                  <li>Date of Birth  {contact.birthdate}</li>
-                  <li>Phone   {contact.phone}</li>
-                  <li>Email  {contact.email}</li>
-                  <li>Website  {contact.website}</li>
-                  <li>Job status {contact.jobstatus}</li>
+             
+            <div className="details--list">
+            <ul className="list-1">
+                  <li>Date of Birth:    </li>
+                  <li>Phone:</li>
+                  <li>Email:</li>
+                  <li>Website:</li>
+                  <li>Job status:</li>
              </ul>
+
+             <ul>
+                  <li>12-38-45</li>
+                  <li>052093038</li>
+                  <li>rafiazafar75@gmail.com</li>
+                  <li>www.example.com</li>
+                  <li>none</li>
+             </ul>
+            </div>
+           
 
              </div>
 
              <div className="section--my-interests">
-                     <h3>My Interests</h3>
+                    
              </div>
 
             </div>
