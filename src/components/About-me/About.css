@@ -8,9 +8,15 @@
     /* color: rgb(52, 235, 192); */
     color: white;
     
-
+    
 
     
+}
+
+.about-me__content{
+    margin: auto 6.9rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-me_header{
@@ -28,9 +34,6 @@
     border-bottom: 1px solid rgb(52, 235, 192);
 }
 
-.about-me__paragraph{
-      margin: auto 6.9rem;
-}
 
 .paragraph--bold{
     color:rgb(52, 235, 192) ;
@@ -47,7 +50,7 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: auto 0.2rem;
+    /* margin: auto 0.2rem; */
     justify-content: space-evenly;
     margin-top: 2rem;
     
@@ -56,6 +59,7 @@ justify-content: space-around;
 .section--personal-details{
     display: flex;
     flex-direction: column;
+
     
 }
 
@@ -71,8 +75,7 @@ justify-content: space-around;
     color: rgb(52, 235, 192);
     text-transform: uppercase;
     font-weight: bolder;
-    align-items: flex-start;
-    
+
   
 }
 

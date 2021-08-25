@@ -8,6 +8,8 @@ function About() {
 
         <div className="about-me">
 
+            <div className="about-me__content">
+
             <div className="about-me_header ">
             <h1 className="header--header">About me</h1>
             </div>
@@ -55,6 +57,8 @@ function About() {
              <div className="section--my-interests">
                     
              </div>
+
+            </div>
 
             </div>
                 
