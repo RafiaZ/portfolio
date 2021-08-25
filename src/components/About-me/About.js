@@ -1,5 +1,12 @@
 import React from 'react'
-
+import { FaBeer } from 'react-icons/fa';
+import {FaBicycle} from 'react-icons/fa';
+import {FaBookReader} from 'react-icons/fa';
+import {FaGamepad } from 'react-icons/fa';
+import {FaCamera} from 'react-icons/fa';
+import {FaCar} from 'react-icons/fa';
+import {FaPlane} from 'react-icons/fa';
+import {FaPalette} from 'react-icons/fa';
 import './About.css'
 
 function About() {
@@ -22,14 +29,17 @@ function About() {
             remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
             </p>
 
-            <div className="about-me__sections">
-                <div  className="sections--headers">
+
+            <div  className="sections--headers">
                     
-                    <div><h3>My Interests</h3></div>
+                    
                     <div><h3>Personal Details</h3></div>
+                    <div><h3>My Interests</h3></div>
             
             
                 </div>
+            <div className="about-me__sections">
+
 
              <div className="section--personal-details">
                  
@@ -57,14 +67,38 @@ function About() {
 
              <div className="section--my-interests">
                     
-                    <div className="interests_icons"></div>
-                    <div className="interests_icons"></div>
-                    <div className="interests_icons"></div>
-                    <div className="interests_icons"></div>
-                    <div className="interests_icons"></div>
-                    <div className="interests_icons"></div>
-                    <div className="interests_icons"></div>
-                    <div className="interests_icons"></div>
+                    <div className="interests_icons">
+                    <FaBeer />
+                    Chai
+                    </div>
+                    <div className="interests_icons">
+                        <FaBicycle/>
+                        Bicycle
+                    </div>
+                    <div className="interests_icons">
+                        <FaBookReader/>
+                        Book Reader
+                    </div>
+                    <div className="interests_icons">
+                        <FaGamepad/>
+                        Games
+                    </div>
+                    <div className="interests_icons">
+                        <FaCamera/>
+                        Photography
+                    </div>
+                    <div className="interests_icons">
+                        <FaCar/>
+                        Car Racing
+                    </div>
+                    <div className="interests_icons">
+                        <FaPlane/>
+                        Traveling
+                    </div>
+                    <div className="interests_icons">
+                        <FaPalette/>
+                        Painting
+                    </div>
              </div>
 
             </div>

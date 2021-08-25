@@ -14,7 +14,7 @@
 }
 
 .about-me__content{
-    margin: auto 8rem;
+    margin: auto 10rem;
     display: flex;
     flex-direction: column;
 }
@@ -24,7 +24,7 @@
     font-family: inherit;
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    padding: 2.5rem;
    
 
   
@@ -43,15 +43,15 @@
 .sections--headers{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-evenly;
 }
 
 .about-me__sections{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     /* margin: auto 0.2rem; */
-    /* justify-content: space-evenly; */
+     justify-content: space-evenly; 
     margin-top: 2rem;
     
 }
@@ -82,6 +82,31 @@ justify-content: space-between;
    
 }
 
+.section--my-interests{
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-flow: row;
+    grid-gap: 0.5rem;
+    justify-items: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.interests_icons{
+display: flex;
+flex-direction: column;
+    background-color: rgba(5, 5, 5, 0.9);
+ 
+    box-shadow: 0 0 10px 0 grey;
+    font-size: 1rem;
+     padding: 1.5rem;
+    border-radius: 5px;
+    place-items: center;
+
+    
+}
 
 
 
