@@ -15,7 +15,7 @@ function About() {
 
         <div className="about-me" >
 
-            <div className="about-me__content">
+            <div className="about-me__content ">
 
              <div className="about-me_header ">
             <h1 className="header--header">About me</h1>

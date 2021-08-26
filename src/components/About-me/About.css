@@ -2,13 +2,14 @@
 
 
 .about-me{
-    height: 90vh;
-    width: 100%;
+  
+    width: 100%; 
     background-color: rgb(36, 34, 34) ;
     /* color: rgb(52, 235, 192); */
     color: white;
-    
-    
+    display: flex;
+    flex-wrap: wrap;
+
 
     
 }
@@ -16,6 +17,7 @@
 .about-me__content{
     margin: auto 10rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -49,7 +51,7 @@ justify-content: space-around;
 .about-me__sections{
     display: flex;
     flex-direction: row;
-    height: auto;
+   flex-wrap: wrap;
     /* margin: auto 0.2rem; */
      justify-content: space-between; 
     margin-top: 2rem;
@@ -86,18 +88,23 @@ justify-content: space-around;
 
     display: flex;
     flex-direction: column;
+    width: 30rem;
+    
 
-}
+} 
 
 .icons{
-     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+   display: flex;
+   flex-wrap: wrap;
      /* grid-auto-rows: minmax(100px, auto);  */
+     /* display: grid;
+     grid-template-columns: repeat(4, 1fr);
      grid-auto-flow: row;
-     grid-gap: 0.5rem;
+     grid-gap: 0.5rem; */
      justify-items: center;
      align-items: center;
-     overflow: visible;
+     gap: 12px;
+   
      } 
 
 .interests_icons{
@@ -107,12 +114,14 @@ justify-content: space-around;
  
     box-shadow: 0 0 10px 0 grey;
     font-size: 1rem;
-     padding: 1rem;
+
     border-radius: 5px;
+     height: 100px;
     width: 100px;
-    height: 100px;
    justify-content: center;
    align-items: center;
+ 
+
    
 }
 
