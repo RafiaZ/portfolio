@@ -13,7 +13,7 @@ function Square() {
 
         <h1 className="name">Rafia .Z</h1>
 
-        <div className="icons">
+        <div className="square-icons">
           <div className="icon-circle">
              
           </div>

@@ -43,7 +43,7 @@
 .sections--headers{
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-around;
 }
 
 .about-me__sections{
@@ -51,7 +51,7 @@ justify-content: space-evenly;
     flex-direction: row;
     height: auto;
     /* margin: auto 0.2rem; */
-     justify-content: space-evenly; 
+     justify-content: space-between; 
     margin-top: 2rem;
     
 }
@@ -83,30 +83,55 @@ justify-content: space-evenly;
 }
 
 .section--my-interests{
-    display: grid;
-    grid-template-columns: repeat(4, 150px);
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-flow: row;
-    grid-gap: 0.5rem;
-    justify-items: center;
-    align-items: center;
 
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
 }
 
+.icons{
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     /* grid-auto-rows: minmax(100px, auto);  */
+     grid-auto-flow: row;
+     grid-gap: 0.5rem;
+     justify-items: center;
+     align-items: center;
+     overflow: visible;
+     } 
+
 .interests_icons{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
     background-color: rgba(5, 5, 5, 0.9);
  
     box-shadow: 0 0 10px 0 grey;
     font-size: 1rem;
-     padding: 1.5rem;
+     padding: 1rem;
     border-radius: 5px;
-    place-items: center;
-
-    
+    width: 100px;
+    height: 100px;
+   justify-content: center;
+   align-items: center;
+   
 }
+
+ .download_button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 3rem;
+ } 
+ 
+ .download_button-style{
+
+    padding: 0.6rem;
+    width: 10rem;
+    border: 1px solid white;
+    background-color: rgba(5, 5, 5, 0.9);
+    color: white;
+ }
+
 
 
 
