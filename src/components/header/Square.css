@@ -18,6 +18,7 @@
    flex-direction: column;
   position: relative;
    margin-top: 50%;
+   padding: 3rem;
  
 
 }
@@ -92,54 +93,26 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px;
-   margin-top: 20px;
+   
+   margin-top: 2rem;
 
 }
 
 .icon-circle{
 
    display: flex;
-  width: 4rem;
-   height: 4rem;
+  width: 3rem;
+   height: 3rem;
    border-radius: 50%;
-     border: 3px solid rgb(52, 235, 192);
+     border: 1px solid white;
   
      justify-content: center;
      align-items: center;
-     background-color: rgb(119, 114, 114);
-     margin: 5px;
+     background-color: black;
+     gap: 1rem;
      box-shadow: 0 0 10px 0 grey;
-     
+     margin-right: 8px;
+     color: white;
+     font-size: 1.5rem;
 }
 
-.icon-circle:first-child{
-   background: url("./Assets/facebook.png");
-  background-size: cover;
-  background-position: center;
-}
-
-
-.icon-circle:nth-child(2){
-   background: url("./Assets/insta.png");
-   background-size: cover;
-   background-position: center;
-}
-
-.icon-circle:nth-child(3){
-   background: url("./Assets/linkedin.png");
-   background-size: cover;
-   background-position: center;
-}
-
-.icon-circle:nth-child(4){
-   background: url("./Assets/skype.png");
-   background-size: cover;
-   background-position: center;
-}
-
-.icon-circle:nth-child(5){
-   background: url("./Assets/twitter.png");
-   background-size: cover;
-   background-position: center;
-}
