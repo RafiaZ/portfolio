@@ -11,7 +11,7 @@ function MySkills() {
             <div className="skills__content">
             
             <div className="skills__header">
-             <h1> Skills </h1>
+             <h1 className="skills__header-heading"> Skills </h1>
             </div>
 
             <div className="skills__bars">

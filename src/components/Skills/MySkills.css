@@ -1,8 +1,7 @@
 .skills{
 
-    height: 100vh;
+    height: 90vh;
     display: flex;
-    flex-direction: row;
     background-color: black;
     color: white;
     width: 100%;
@@ -13,7 +12,7 @@
 
 .skills__content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 
@@ -24,11 +23,15 @@
     padding: 2.5rem;
 }
 
+.skills__header-heading{
+      border-bottom : 1px solid rgb(52, 235, 192) ;
+} 
+
 .skills__bars{
 display: flex;
 flex-direction: column;
 gap: 20px;
-width: 80%;
+
 
    
 }
