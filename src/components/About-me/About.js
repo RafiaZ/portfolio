@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+import {FaBeer} from 'react-icons/fa';
 import {FaBicycle} from 'react-icons/fa';
 import {FaBookReader} from 'react-icons/fa';
 import {FaGamepad } from 'react-icons/fa';

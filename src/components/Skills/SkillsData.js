@@ -1,4 +1,4 @@
-export const data = [
+ const Data = [
     {
         "percentage" : "30",
         "label" : "html",
@@ -20,3 +20,5 @@ export const data = [
         "id" : "4"
     }, 
 ]
+  
+export default Data;
