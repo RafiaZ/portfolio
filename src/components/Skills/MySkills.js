@@ -2,13 +2,13 @@ import React from 'react'
 
 
 import ProgressBar from 'react-bootstrap/ProgressBar'
-import SkillsData from './SkillsData';
+import {Data} from './SkillsData';
 import './MySkills.css';
 
 function MySkills(props) {
 
-    const Pitems = SkillsData.map(items => 
-        <ProgressBar key={props.items.id} now={items.percentage} /> 
+    const Pitems = Data.map(items => 
+        <ProgressBar key={items.id} now={items.percentage} /> 
        )
 
     return (
@@ -23,6 +23,7 @@ function MySkills(props) {
             <div className="skills_bars_section">
                 <div className="section_left">
                      {Pitems}
+                     <h3>{items.label}</h3>
                 </div>
                 <div className="section_right">
                 <ProgressBar now={60} /> 

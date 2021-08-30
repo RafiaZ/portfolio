@@ -1,12 +1,12 @@
 import React from 'react'
-import {FaBeer} from 'react-icons/fa';
-import {FaBicycle} from 'react-icons/fa';
-import {FaBookReader} from 'react-icons/fa';
-import {FaGamepad } from 'react-icons/fa';
-import {FaCamera} from 'react-icons/fa';
-import {FaCar} from 'react-icons/fa';
-import {FaPlane} from 'react-icons/fa';
-import {FaPalette} from 'react-icons/fa';
+import { FaBeer } from 'react-icons/fa';
+import { FaBicycle } from 'react-icons/fa';
+import { FaBookReader } from 'react-icons/fa';
+import { FaGamepad } from 'react-icons/fa';
+import { FaCamera } from 'react-icons/fa';
+import { FaCar } from 'react-icons/fa';
+import { FaPlane } from 'react-icons/fa';
+import { FaPalette } from 'react-icons/fa';
 import './About.css'
 
 function About() {
