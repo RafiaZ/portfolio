@@ -3,13 +3,26 @@ import React from 'react'
 
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import {Data} from './SkillsData';
+import {DataRight} from './SkillsDataRt';
 import './MySkills.css';
 
 function MySkills(props) {
 
-    const Pitems = Data.map(items => 
-        <ProgressBar key={items.id} now={items.percentage} /> 
+    const Pitems = Data.map(items =>
+        <div >
+            <ProgressBar key={items.id} now={items.percentage} />
+            <h3>{items.label}</h3>
+        </div> 
+         
        )
+
+
+        const Pright = DataRight.map(item =>{
+        <div>
+                <ProgressBar key={item.id} now={item.per} />
+             <h3>{item.lab}</h3>
+            </div>
+       })
 
     return (
         <div className="skills">
@@ -23,11 +36,10 @@ function MySkills(props) {
             <div className="skills_bars_section">
                 <div className="section_left">
                      {Pitems}
-                     <h3>{items.label}</h3>
+                    
                 </div>
                 <div className="section_right">
-                <ProgressBar now={60} /> 
-                <h4>css</h4>
+               {Pright}
                 </div>
             </div>
 
