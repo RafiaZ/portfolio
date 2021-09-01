@@ -3,7 +3,7 @@ import React from 'react'
 
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import {Data} from './SkillsData';
-import {DataRight} from './SkillsDataRt';
+import {DataRight} from './SkillsData';
 import './MySkills.css';
 
 function MySkills(props) {
@@ -17,12 +17,12 @@ function MySkills(props) {
        )
 
 
-        const Pright = DataRight.map(item =>{
+        const Pright = DataRight.map(item =>
         <div>
                 <ProgressBar key={item.id} now={item.per} />
              <h3>{item.lab}</h3>
             </div>
-       })
+       )
 
     return (
         <div className="skills">
@@ -34,12 +34,12 @@ function MySkills(props) {
             </div> 
 
             <div className="skills_bars_section">
+            <div className="section_right">
+               {Pright}
+                </div>
                 <div className="section_left">
                      {Pitems}
                     
-                </div>
-                <div className="section_right">
-               {Pright}
                 </div>
             </div>
 
