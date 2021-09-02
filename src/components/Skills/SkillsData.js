@@ -36,6 +36,11 @@ export const DataRight = [
         per : "70",
         lab : "SCSS",
         id : "3"
+    },
+    {
+        per : "70",
+        lab : "SCSS",
+        id : "4"
     } 
 ]
   

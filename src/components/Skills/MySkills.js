@@ -11,7 +11,7 @@ function MySkills(props) {
     const Pitems = Data.map(items =>
         <div >
             <ProgressBar key={items.id} now={items.percentage} />
-            <h3>{items.label}</h3>
+            <h3 className="pbar-label">{items.label}</h3>
         </div> 
          
        )
@@ -20,7 +20,7 @@ function MySkills(props) {
         const Pright = DataRight.map(item =>
         <div>
                 <ProgressBar key={item.id} now={item.per} />
-             <h3>{item.lab}</h3>
+             <h3 className="pbar-label">{item.lab}</h3>
             </div>
        )
 
