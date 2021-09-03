@@ -36,6 +36,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 5rem;
     
   
    
@@ -58,6 +59,7 @@
 
 .progress-bar{
     background-color: rgb(58, 192, 161);
+    
 }
 
 .pbar-label{
@@ -68,6 +70,7 @@
 .progress{
 
     background-color: lightgrey;
+    height: 0.7rem;
 }
 
 

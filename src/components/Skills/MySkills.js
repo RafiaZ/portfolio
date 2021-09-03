@@ -35,6 +35,7 @@ function MySkills(props) {
 
             <div className="skills_bars_section">
             <div className="section_right">
+                
                {Pright}
                 </div>
                 <div className="section_left">
