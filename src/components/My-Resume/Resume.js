@@ -4,12 +4,16 @@ import './Resume.css'
 
 function Resume() {
     return (
-        <div>
-            <div className="resume-container">
-                <div className="resume-left-part">
-                    <div className="resume-left-part"></div>
-                </div>
-                <div className="resume-left-part"></div>
+        <div className="resume-container">
+            <div className="resume-container-inner">
+              <div className="resume-header">
+                  <h1>My Experiene</h1>
+              </div>
+
+              <div className="resume-cards">
+                  
+              </div>
+
             </div>
         </div>
     )

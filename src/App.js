@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 import About from './components/About-me/About';
 import MySkills from './components/Skills/MySkills'
+import Resume from './components/My-Resume/Resume'
 
 
 
@@ -14,6 +15,7 @@ function App(props) {
       <Header/>
       <About/>
      <MySkills/>
+     <Resume/>
     </div>
   );
 }

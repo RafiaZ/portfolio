@@ -30,6 +30,7 @@ function MySkills(props) {
             <div className="containers skills-content">
 
             <div className="skills_header ">
+            
             <h1 className="skills_header-underline">Skills</h1>
             </div> 
 
