@@ -7,7 +7,7 @@ function Resume() {
         <div className="resume-container">
             <div className="resume-container-inner">
               <div className="resume-header">
-                  <h1>My Experiene</h1>
+                  <h1 className="resume-header-underline">My Experiene</h1>
               </div>
 
               <div className="resume-cards">
