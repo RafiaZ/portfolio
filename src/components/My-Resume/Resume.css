@@ -1,8 +1,9 @@
 .resume-container{
 
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(36, 34, 34) ;
     height: 90vh;
     color: white;
+
    
 }
 
@@ -10,13 +11,17 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: auto 0;
+      gap: 2rem;
+     
 }
 
 
 .resume-header{
     margin-top: 2rem;
-    border-bottom: 1px solid rgb(52, 235, 192);
+    display: flex;
+    justify-content: center;
+
+    /* border-bottom: 1px solid rgb(52, 235, 192); */
     
 }
 .resume-header-underline{
@@ -26,6 +31,22 @@
 .experience-cards{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    color: white;
+    margin: auto;
+    gap: 2rem;
+  
+}
+
+.card{
+    background-color: black;
+    box-shadow: 0 0 10px 0 grey;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.card-heading{
+    color: rgb(52, 235, 192);
 }

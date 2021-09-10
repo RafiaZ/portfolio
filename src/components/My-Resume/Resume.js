@@ -8,25 +8,25 @@ function Resume() {
             <div className="resume-container-inner">
                 
               <div className="resume-header">
-                  <h1 className="resume-header-underline">My Experiene</h1>
+                  <h1 className="resume-header-underline">My Experience</h1>
               </div>
 
               <div className="experience-cards">
                   <div className="card">
                       <div className="card-heading">
-                          <h3> Experiene no 1</h3>
+                          <h3> Database Administration and Web development</h3>
                       </div>
-                      <p>Here I worked</p>
-                      <p>2002-2004</p>
+                      <p>eLearning Dancom, Blue Are, Islamabad</p>
+                      <p>June,2019 - September,2019</p>
                   </div>
 
 
                   <div className="card">
                   <div className="card-heading">
-                          <h3> Experiene no 1</h3>
+                          <h3>Graphics Designer</h3>
                       </div>
-                      <p>Here I worked</p>
-                      <p>2002-2004</p>
+                      <p>ELOGIC Solutions, National Information Technology Board, H-9/1 Islamabad</p>
+                      <p>July,2018 - September,2018</p>
                   </div>
               </div>
 
