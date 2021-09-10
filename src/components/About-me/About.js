@@ -64,6 +64,7 @@ function About() {
                     
             <div className="icons">
 
+                    <div className="icons-row-1">
                     <div className="interests_icons">
                     <FaBeer />
                     Chai
@@ -80,6 +81,10 @@ function About() {
                         <FaGamepad/>
                         Games
                     </div>
+                    </div>
+                    
+                    <div className="icons-row-2">
+                                            
                     <div className="interests_icons">
                         <FaCamera/>
                         Photography
@@ -96,6 +101,8 @@ function About() {
                         <FaPalette/>
                         Painting
                     </div>
+                    </div>
+
             </div>
             <div>
               
