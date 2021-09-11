@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-right: auto;
+    margin: auto 10rem;
 }
 
 .about-me_header{
