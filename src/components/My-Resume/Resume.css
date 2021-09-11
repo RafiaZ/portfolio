@@ -12,6 +12,7 @@
       flex-direction: column;
       justify-content: center;
       gap: 2rem;
+      flex-shrink: 1;
      
 }
 
@@ -44,7 +45,8 @@
     box-shadow: 0 0 10px 0 grey;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+     padding: 1rem; 
+     flex-shrink: 1;
 }
 
 .card-heading{
