@@ -1,5 +1,27 @@
-.recents-container{
-    width: 100%; 
+.recents__container{
+    height: 99vh; 
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+
 }
+
+.recents__header{
+
+}
+
+.recents__header-heading{
+    border-bottom: 1px solid rgb(52, 235, 192);
+}
+
+.recents__list{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+
