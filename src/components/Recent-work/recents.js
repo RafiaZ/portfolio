@@ -9,10 +9,10 @@ function Recents() {
             </div>
             <div className="recents__list">
 
-              <li> <a href="#" className="recents__list-link">All catagories</a></li>
-              <li> <a href="#" className="recents__list-link">My Blog</a></li>
-              <li> <a href="#" className="recents__list-link">Photography</a></li>
-              <li> <a href="#" className="recents__list-link">Painting</a></li>
+              <li> <a href="#" className="recents__list-item recents__list-active">All catagories</a></li>
+              <li> <a href="#" className="recents__list-item recents__list-active">My Blog</a></li>
+              <li> <a href="#" className="recents__list-item recents__list-active">Photography</a></li>
+              <li> <a href="#" className="recents__list-item recents__list-active">Painting</a></li>
                 
             </div>
             <div className="recents__grid">
