@@ -21,30 +21,29 @@
 .recents__list{
     display: flex;
     list-style: none;
-    gap: 3rem;
-    position: relative;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    z-index: 2;
+}
+
+.recents__list-item{
+   height: 100%;
+    width: 3px;
+    background-color: rgb(52, 235, 192);
+   display: flex;
+   transition: transform .2s,
+   width .4s cubic-bezier(1,0,0,1) .2s,
+   background-color .1s ;
+
+
+}
+.recents__list-item:hover{
+    transform: scaleY(1);
+    width: 100%;
     color: black;
 }
-
-
-.recents__list-item::before{
-    content: "";
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 1px;
-    background-color: rgb(52, 235, 192);
-
-    transform: scaleY(0);
-    transition: transform .2s,
-    width .4s cubic-bezier(1,0,0,1) .2s,
-    background-color .1s ;
-
-}
-.recents__list-item:hover::before,
-.recents__list-active::before{transform: scaleY(1);
-    width: 100%;}
 
 
 
