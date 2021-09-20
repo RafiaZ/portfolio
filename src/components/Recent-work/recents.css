@@ -10,9 +10,9 @@
 
 }
 
-.recents__header{
+/* .recents__header{
 
-}
+} */
 
 .recents__header-heading{
     border-bottom: 1px solid rgb(52, 235, 192);
@@ -24,26 +24,14 @@
     gap: 5rem;
     justify-content: center;
     align-items: center;
-    color: black;
-    z-index: 2;
+  text-decoration: underline;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+}
+.recents__list-link{
+    text-transform: capitalize;
 }
 
-.recents__list-item{
-   height: 100%;
-    width: 3px;
-    background-color: rgb(52, 235, 192);
-   display: flex;
-   transition: transform .2s,
-   width .4s cubic-bezier(1,0,0,1) .2s,
-   background-color .1s ;
-
-
-}
-.recents__list-item:hover{
-    transform: scaleY(1);
-    width: 100%;
-    color: black;
-}
 
 
 
