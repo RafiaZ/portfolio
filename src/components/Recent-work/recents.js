@@ -1,4 +1,6 @@
 import React from 'react'
+
+import ImageRecent from './recents-images/r-img-1.jpg'
 import './Recents.css'
 
 function Recents() {
@@ -18,22 +20,30 @@ function Recents() {
             <div className="recents__grid">
                 
                 <div>
-                    <img src="recents-img/r-img-1.jpg" alt="recents image 1"/>
+                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
                 </div>
 
                 <div>
-                    <img src="recents-img/r-img-1.jpg" alt="recents image 1"/>
-                </div>
-                <div>
-                    <img src="recents-img/r-img-1.jpg" alt="recents image 1"/>
-                </div>
-                <div>
-                    <img src="recents-img/r-img-1.jpg" alt="recents image 1"/>
-                </div>
-                <div>
-                    <img src="recents-img/r-img-1.jpg" alt="recents image 1"/>
+                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
                 </div>
 
+                <div>
+                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                </div>
+
+                <div>
+                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                </div>
+
+                <div>
+                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                </div>
+
+                <div>
+                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                </div>
+
+               
                 
             </div>
         </div>
