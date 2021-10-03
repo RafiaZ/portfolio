@@ -39,20 +39,22 @@
 }
 
 .recents__grid{
-    /* display: flex;
-flex-wrap: wrap;
 
-    grid-gap: 2rem; */
     display: grid;
-    /* width: 60%; */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+   
+  
 }
 
 .recents__images{
-    height: 50%;
-    width: 50%;
     
+    
+}
+
+.recents__images img{
+    height: 100px;
+    width: 100px; 
 }
 
 

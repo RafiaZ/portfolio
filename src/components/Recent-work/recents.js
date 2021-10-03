@@ -19,28 +19,45 @@ function Recents() {
             </div>
             <div className="recents__grid">
                 
-                <div>
-                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                <div  className="recents__images">
+                    <img src={ImageRecent} alt="recents image 1"/>
                 </div>
 
-                <div>
-                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
                 </div>
 
-                <div>
-                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
                 </div>
 
-                <div>
-                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
                 </div>
 
-                <div>
-                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
                 </div>
 
-                <div>
-                    <img className="recents__images" src={ImageRecent} alt="recents image 1"/>
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
+                </div>
+
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
+                </div>
+
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
+                </div>
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
+                </div>
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
+                </div>
+                <div  className="recents__images">
+                    <img  src={ImageRecent} alt="recents image 1"/>
                 </div>
 
                
