@@ -4,9 +4,27 @@ import ImageRecent from "./recents-images/r-img-1.jpg";
 import "./Recents.css";
 
 function Recents() {
+  const a = [
+    {
+      src: ImageRecent,
+      alt: "image 1",
+    },
+    {
+      src: ImageRecent,
+      alt: "image 1",
+    },
+    {
+      src:ImageRecent,
+      alt: "image 1",
+    },
+    {
+      src:ImageRecent,
+      alt: "image 1",
+    },
+
+  ];
   return (
     <div className="recents__container">
-      
       <div className="recents__header">
         <h1 className="recents__header-heading">Recent Portfolio</h1>
       </div>
@@ -37,56 +55,14 @@ function Recents() {
         </li>
       </div>
 
-      <div className="recents__grid">
-        <div>
-          <img
-            className="recents__images"
-            src={ImageRecent}
-            alt="recents image 1"
-          />
-        </div>
-
-        <div>
-          <img
-            className="recents__images"
-            src={ImageRecent}
-            alt="recents image 1"
-          />
-        </div>
-
-        <div>
-          <img
-            className="recents__images"
-            src={ImageRecent}
-            alt="recents image 1"
-          />
-        </div>
-
-        <div>
-          <img
-            className="recents__images"
-            src={ImageRecent}
-            alt="recents image 1"
-          />
-        </div>
-
-        <div>
-          <img
-            className="recents__images"
-            src={ImageRecent}
-            alt="recents image 1"
-          />
-        </div>
-
-        <div>
-          <img
-            className="recents__images"
-            src={ImageRecent}
-            alt="recents image 1"
-          />
-        </div>
-
-
+      <div className="recents__grid ">
+        {/* <div> */}
+          {a.map((grid) => (
+            <div>
+              <img className="recents__images" src={grid.src} alt={grid.alt}/>
+            </div>
+          ))}
+        {/* </div> */}
       </div>
     </div>
   );
