@@ -31,20 +31,20 @@ export const AllCatagories = [
 
   export const MyBlog = [
     {
-      src: blog_1,
-      alt: "image 1",
+      srce: blog_1,
+      alte: "image 1",
     },
     {
-      src: blog_2,
-      alt: "image 1",
+      srce: blog_2,
+      alte: "image 1",
     },
     {
-      src:blog_3,
-      alt: "image 1",
+      srce:blog_3,
+      alte: "image 1",
     },
     {
-      src:ImageRecent,
-      alt: "image 1",
+      srce:ImageRecent,
+      alte: "image 1",
     }
   ]
 
