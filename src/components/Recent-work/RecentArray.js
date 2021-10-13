@@ -8,6 +8,10 @@ import photog_1 from "./recents-images/photog_1.jpg";
 import photog_2 from "./recents-images/photog_2.jpg";
 import photog_3 from "./recents-images/photog_3.jpg";
 
+import painting_1 from "./recents-images/painting_1.jpg";
+import painting_2 from "./recents-images/painting_2.jpg";
+import painting_3 from "./recents-images/painting_3.jpg";
+
 
 export const AllCatagories = [
     {
@@ -41,28 +45,35 @@ export const AllCatagories = [
     {
       srce:blog_3,
       alte: "image 1",
-    },
-    {
-      srce:ImageRecent,
-      alte: "image 1",
     }
   ]
 
   export const Photography = [
     {
-      src: photog_1,
-      alt: "image 1",
+      srcf: photog_1,
+      altf: "image 1",
     },
     {
-      src: photog_2,
-      alt: "image 1",
+      srcf: photog_2,
+      altf: "image 1",
     },
     {
-      src: photog_3,
-      alt: "image 1",
+      srcf: photog_3,
+      altf: "image 1",
+    }
+  ]
+
+  export const Painting = [
+    {
+      srcb: painting_1,
+      altb: "image 1",
     },
     {
-      src:ImageRecent,
-      alt: "image 1",
+      srcb: painting_2,
+      altb: "image 1",
+    },
+    {
+      srcb: painting_3,
+      altb: "image 1",
     }
   ]
