@@ -1,4 +1,66 @@
 .contact-me-container{
 
     display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url('./contact-me-images/digital.jpg');
+    background-size: cover;
+    color:white;
 }
+
+.contact-me-heading{
+margin-top: 2rem;
+display: flex;
+justify-content: center;
+text-transform: uppercase;
+}
+
+.contact-me-heading__underline{
+    border-bottom: 1px solid rgb(52, 235, 192);
+}
+
+.form-map-container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.contact-me__form-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.email{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.Message{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.form-button{
+
+   width: 150px;
+   height: 40px;
+    color: black;
+}
+

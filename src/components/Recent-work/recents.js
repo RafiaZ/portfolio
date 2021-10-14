@@ -46,6 +46,7 @@ function Recents() {
               setToggleCatagories(true);
               setToggleBlog(false);
               setTogglePainting(false);
+              setTogglePhotography(false);
             }}
           >
             All catagories
@@ -59,7 +60,8 @@ function Recents() {
               onClick={(e) => {
                 setToggleBlog(true);
                 setToggleCatagories(false);
-                setTogglePainting(false);
+                setTogglePainting(false)
+                setTogglePhotography(false);
               }}
             >
               My Blog
@@ -74,6 +76,7 @@ function Recents() {
               setTogglePainting(true);
               setToggleBlog(false);
               setToggleCatagories(false);
+              setTogglePhotography(false);
             }}
           >
             Painting
@@ -95,15 +98,12 @@ function Recents() {
         </li>
       </div>
 
-      <div className="recents__grid">{toggleBlog && blogIsOpen}</div>
-
       <div className="recents__grid">
-        {toggleAllCatagories && catagoriesIsOpen}
+      {toggleBlog && blogIsOpen}
+      {toggleAllCatagories && catagoriesIsOpen}
+      {togglePainting && paintingIsOpen}
+      {togglePhotography && photogIsOpen}
       </div>
-
-      <div className="recents__grid">{togglePainting && paintingIsOpen}</div>
-
-      <div className="recents__grid">{togglePhotography && photogIsOpen}</div>
     </div>
   );
 }

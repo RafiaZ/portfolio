@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
-  padding: 2rem;
+  gap: 2rem;
+  padding: 2rem; 
  
 }
 .recents__header-heading {
