@@ -34,29 +34,32 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border-radius: 5px;
+   
 }
 
 .name{
-    padding-left: 6rem;
-    padding-right: 6rem;
+    width: 400px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-
+    background-color: rgb(22, 22, 22);
+    border-right: none;
 }
 
 .email{
-    padding-left: 6rem;
-    padding-right: 6rem;
+    width: 400px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-
+    background-color: rgb(22, 22, 22);
+    border-right: none;
 }
 
 .Message{
-    padding-left: 6rem;
-    padding-right: 6rem;
+    width: 400px;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    background-color: rgb(22, 22, 22);
+    border-right: none;
 
 }
 
