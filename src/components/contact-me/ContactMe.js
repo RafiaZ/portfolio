@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState} from 'react'
+
 
 
 import './ContactMe.css'
@@ -6,6 +7,13 @@ import './ContactMe.css'
 
 
 function ContactMe() {
+
+    let textInput = React.createRef();
+    const [name, setName] = useState('')
+
+    const handleName = () =>{
+           setName(textInput.current.value)
+    }
     return (
         <div className="contact-me-container">
 
@@ -19,7 +27,7 @@ function ContactMe() {
 
             <div className="contact-me__form">
                <form className="contact-me__form-inner">
-                   <input className="name" placeholder="Your Name"/>
+                  {name && <input className="nameC" placeholder="Your Name" ref={textInput}/>}
                    <input className="email" placeholder="Email"/>
                    <input className="Message" placeholder="Type Your Message Here!"/>
                    <input className="form-button" type="button" value="Send Message"/>
