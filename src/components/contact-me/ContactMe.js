@@ -8,12 +8,17 @@ import './ContactMe.css'
 
 function ContactMe() {
 
-    let textInput = React.createRef();
-    const [name, setName] = useState('')
+    
+    const [inputVal, setInputVal] = useState('')
 
-    const handleName = () =>{
-           setName(textInput.current.value)
+ 
+    const handleName =() => {
+        return(
+            <div>{inputVal}</div>
+        )
+
     }
+
     return (
         <div className="contact-me-container">
 
@@ -27,10 +32,10 @@ function ContactMe() {
 
             <div className="contact-me__form">
                <form className="contact-me__form-inner">
-                  {name && <input className="nameC" placeholder="Your Name" ref={textInput}/>}
+                  <input className="nameC" placeholder="Your Name" value= {inputVal}  onChange={ (e) =>{setInputVal(e.target.value);}}/>
                    <input className="email" placeholder="Email"/>
                    <input className="Message" placeholder="Type Your Message Here!"/>
-                   <input className="form-button" type="button" value="Send Message"/>
+                   <button className="form-button"  onClick={handleName}> Send Message </button>
                    
                </form>
             </div>
