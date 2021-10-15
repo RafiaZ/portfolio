@@ -10,14 +10,17 @@ function ContactMe() {
 
     
     const [inputVal, setInputVal] = useState('')
+    const [inputEmail, setInputemail] = useState('')
+    const [inputEtext, setInputEtext] = useState('')
 
  
-    const handleName =() => {
-        return(
-            <div>{inputVal}</div>
-        )
-
+    const handleInputs =() => {
+      alert(inputVal + inputEmail + inputEtext)
+     setInputVal("")
+     setInputemail("")
+     setInputEtext("")
     }
+
 
     return (
         <div className="contact-me-container">
@@ -33,9 +36,10 @@ function ContactMe() {
             <div className="contact-me__form">
                <form className="contact-me__form-inner">
                   <input className="nameC" placeholder="Your Name" value= {inputVal}  onChange={ (e) =>{setInputVal(e.target.value);}}/>
-                   <input className="email" placeholder="Email"/>
-                   <input className="Message" placeholder="Type Your Message Here!"/>
-                   <button className="form-button"  onClick={handleName}> Send Message </button>
+                   <input className="email" placeholder="Email" value={inputEmail} onChange={(e)=>{setInputemail(e.target.value)}}/>
+                   <input className="Message" placeholder="Type Your Message Here!" value= {inputEtext} onChange={(e)=>{setInputEtext(e.target.value)}}/>
+                   <input className="form-button" onClick={handleInputs} value="Send Message" type="button" />
+                   {/* <button className="form-button"  onClick={handleName}> Send Message </button> */}
                    
                </form>
             </div>
