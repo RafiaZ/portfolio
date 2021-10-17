@@ -6,6 +6,7 @@ import MySkills from './components/Skills/MySkills'
 import Resume from './components/My-Resume/Resume'
 import Recents from './components/Recent-work/Recents';
 import ContactMe from './components/contact-me/ContactMe';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -20,6 +21,7 @@ function App(props) {
      <Resume/>
      <Recents/>
      <ContactMe/>
+     <Footer/>
     </div>
   );
 }

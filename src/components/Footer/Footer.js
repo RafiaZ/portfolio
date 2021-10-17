@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import { FaFacebookF } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaSkype } from 'react-icons/fa';
@@ -6,18 +6,11 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub  } from 'react-icons/fa';
 
 
-import "./Square.css";
+import './Footer.css'
 
-function Square() {
-    
-  return (
-    <>
-    <div className="flex-container">
-    <div className="square">
-        <div className="circle"></div>
-
-        <h1 className="name">Rafia .Z</h1>
-
+function Footer() {
+    return (
+        <div className="footer-container">
         <div className="square-icons">
           <div className="icon-circle">
              <FaFacebookF/>
@@ -35,12 +28,8 @@ function Square() {
             <FaGithub/>
           </div>
      </div>
-    
-      </div>
-
-      </div>
-    </>
-  );
+        </div>
+    )
 }
 
-export default Square;
+export default Footer
