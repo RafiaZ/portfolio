@@ -2,4 +2,32 @@
 
     height: 10rem;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
 }
+
+.half-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 235, 192);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+   position: absolute;
+   margin-bottom: 10rem;
+   color: black;
+  
+}
+
+.copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+

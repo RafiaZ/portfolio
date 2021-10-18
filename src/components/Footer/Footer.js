@@ -5,12 +5,13 @@ import { FaSkype } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub  } from 'react-icons/fa';
 
-
+import "../header/Square.css";
 import './Footer.css'
 
 function Footer() {
     return (
-        <div className="footer-container">
+      <div className="footer-container">
+        <div className="half-circle"> Up </div>
         <div className="square-icons">
           <div className="icon-circle">
              <FaFacebookF/>
@@ -28,6 +29,7 @@ function Footer() {
             <FaGithub/>
           </div>
      </div>
+     <div className="copyrights">&copy; Copyright 2021 Rafia. All rights reserved.</div>
         </div>
     )
 }
