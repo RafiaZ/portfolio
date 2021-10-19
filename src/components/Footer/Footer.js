@@ -28,6 +28,7 @@ function Footer() {
           <div className="icon-circle">
             <FaGithub/>
           </div>
+          <div>add a circle</div>
      </div>
      <div className="copyrights">&copy; Copyright 2021 Rafia. All rights reserved.</div>
         </div>
