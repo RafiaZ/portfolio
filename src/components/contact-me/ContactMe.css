@@ -7,6 +7,7 @@
     background: url('./contact-me-images/digital.jpg');
     background-size: cover;
     color:white;
+    gap: 1rem;
 }
 
 .contact-me-heading{
@@ -21,11 +22,11 @@ text-transform: uppercase;
 }
 
 .form-map-container{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9rem;
+    gap: 3rem;
     flex-wrap: wrap;
     
 }

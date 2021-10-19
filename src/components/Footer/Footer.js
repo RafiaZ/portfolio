@@ -9,9 +9,16 @@ import "../header/Square.css";
 import './Footer.css'
 
 function Footer() {
+
+  const scrollToTop=()=> {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
     return (
       <div className="footer-container">
-        <div className="half-circle"> Up </div>
+        <div className="half-circle" onClick={scrollToTop}> Up </div>
         <div className="square-icons">
           <div className="icon-circle">
              <FaFacebookF/>
@@ -28,7 +35,7 @@ function Footer() {
           <div className="icon-circle">
             <FaGithub/>
           </div>
-          <div>add a circle</div>
+          
      </div>
      <div className="copyrights">&copy; Copyright 2021 Rafia. All rights reserved.</div>
         </div>
