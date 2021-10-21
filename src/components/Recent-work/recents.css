@@ -1,15 +1,17 @@
 .recents__container {
-  height: 1000px;
+  height: 100vh;
   background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  padding: 2rem; 
+  flex-wrap: wrap;
+  /* padding: 2rem;  */
  
 }
 .recents__header-heading {
+  margin-top: 10px;
   border-bottom: 1px solid rgb(52, 235, 192);
 }
 
@@ -21,6 +23,7 @@
   align-items: center;
   text-decoration: underline;
   letter-spacing: 0.2rem;
+  flex-wrap: wrap;
 }
 .recents__list-link {
   text-transform: uppercase;
@@ -36,7 +39,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
    justify-content: center;
-   grid-gap: 10px;
+   grid-gap: 1.5rem;
    width: 70%;
 }
 

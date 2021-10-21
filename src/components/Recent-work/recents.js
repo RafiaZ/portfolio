@@ -34,9 +34,12 @@ function Recents() {
 
   return (
     <div className="recents__container">
+
       <div className="recents__header">
         <h1 className="recents__header-heading">Recent Portfolio</h1>
       </div>
+
+      
       <div className="recents__list">
         <li className="recents__list-item">
           {" "}
