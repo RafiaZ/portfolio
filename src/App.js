@@ -7,6 +7,7 @@ import Resume from './components/My-Resume/Resume'
 import Recents from './components/Recent-work/Recents';
 import ContactMe from './components/contact-me/ContactMe';
 import Footer from './components/Footer/Footer';
+import Practice from './components/practice-component/Practice';
 
 
 
@@ -22,6 +23,7 @@ function App(props) {
      <Recents/>
      <ContactMe/>
      <Footer/>
+     <Practice/>
     </div>
   );
 }
