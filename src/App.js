@@ -23,7 +23,7 @@ function App(props) {
      <Recents/>
      <ContactMe/>
      <Footer/>
-     <Practice/>
+     {/* <Practice/> */}
     </div>
   );
 }
