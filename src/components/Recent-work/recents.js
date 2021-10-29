@@ -39,7 +39,8 @@ function Recents() {
         <h1 className="recents__header-heading">Recent Portfolio</h1>
       </div>
 
-      
+     
+
       <div className="recents__list">
         <li className="recents__list-item">
           {" "}
@@ -102,11 +103,14 @@ function Recents() {
       </div>
 
       <div className="recents__grid">
-      {toggleBlog && blogIsOpen}
+        
       {toggleAllCatagories && catagoriesIsOpen}
+      {toggleBlog && blogIsOpen}
       {togglePainting && paintingIsOpen}
       {togglePhotography && photogIsOpen}
+      
       </div>
+    
     </div>
   );
 }

@@ -1,8 +1,8 @@
 .contact-me-container{
 
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     height: 100vh;
     background: url('./contact-me-images/digital.jpg');
     background-size: cover;
