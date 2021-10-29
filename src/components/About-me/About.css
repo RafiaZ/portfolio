@@ -8,6 +8,7 @@
     /* color: rgb(52, 235, 192); */
     color: white;
     display: flex;
+    justify-content: center ;
     
 
 
@@ -26,7 +27,7 @@
     font-family: inherit;
     display: flex;
     justify-content: center;
-    padding: 2.5rem;
+    /* padding: 2.5rem; */
    
 
   

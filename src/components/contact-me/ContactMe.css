@@ -7,8 +7,9 @@
     background: url('./contact-me-images/digital.jpg');
     background-size: cover;
     color:white;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
+    
    
 }
 
@@ -24,19 +25,20 @@ text-transform: uppercase;
 }
 
 .form-map-container{
-    /* margin-top: 4rem; */
-    display: flex;
-    justify-content: center;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     width: 100%;
+    /*
     align-items: center;
-    /* gap: 3rem; */
-    flex-wrap: wrap;
+     */
     
 }
 
 .contact-me__form-inner{
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
     border-radius: 5px;
    
 }
@@ -74,6 +76,8 @@ text-transform: uppercase;
    width: 150px;
    height: 40px;
     color: black;
+   margin-top: 10px;
+    
 }
 
 .contact-me__map{
@@ -90,8 +94,8 @@ text-transform: uppercase;
     border-bottom: 1px rgb(75, 70, 70) solid;
 }
 
-.print{
+/* .print{
     height: 2rem;
     width: 2rem;
-}
+} */
 
