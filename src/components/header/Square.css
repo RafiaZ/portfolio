@@ -60,7 +60,7 @@
       
      
 }
-@keyframes nudge {
+/* @keyframes nudge {
    0%, 100% {
      transform: translate(0, 0);
    }
@@ -78,7 +78,7 @@
 .circle:hover{
   
    animation: nudge 5s linear infinite alternate;
-}
+} */
 
 
 .name{
