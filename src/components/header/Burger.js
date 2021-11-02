@@ -5,10 +5,15 @@ import '../header/Burger.css'
 
 function Burger(props) {
 
+    const[togglePopup, setTogglePopup]= useState(false);
 
+   const handleToggle = ()=>{
+        setTogglePopup(!togglePopup);
+    }
     return (
         <>
-          <div className="burger" onClick={props.onClick}>
+        {togglePopup && <Popup/>}
+          <div className="burger" onClick={handleToggle}>
               <span className="dash"></span>
               <span className="dash"></span>
               <span className="dash"></span>

@@ -7,16 +7,14 @@ import Resume from './components/My-Resume/Resume'
 import Recents from './components/Recent-work/Recents';
 import ContactMe from './components/contact-me/ContactMe';
 import Footer from './components/Footer/Footer';
-import Popup from './components/Popup/Popup'
-import Practice from './components/practice-component/Practice';
-
-
+import Popup from './components/header/Popup'
 
 
 function App(props) {
+  
   return (
     <div>
-      <Popup/>
+
       <Navbar/>
       <Header/>
       <About/>

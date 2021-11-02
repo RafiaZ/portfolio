@@ -8,10 +8,6 @@ function Header() {
 
             <Square/>
 
-            
-
-            
-
         </div>
     )
 }
